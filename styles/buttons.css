@@ -1,0 +1,49 @@
+/* Global Button Styles - All buttons red */
+
+button,
+.button,
+.btn,
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+  background-color: #FF0000;
+  color: #FFFFFF;
+  border: 2px solid #CC0000;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover,
+.button:hover,
+.btn:hover,
+input[type="button"]:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+  background-color: #CC0000;
+  border-color: #990000;
+}
+
+button:active,
+.button:active,
+.btn:active,
+input[type="button"]:active,
+input[type="submit"]:active,
+input[type="reset"]:active {
+  background-color: #990000;
+  border-color: #660000;
+}
+
+button:disabled,
+.button:disabled,
+.btn:disabled,
+input[type="button"]:disabled,
+input[type="submit"]:disabled,
+input[type="reset"]:disabled {
+  background-color: #FFCCCC;
+  border-color: #FF9999;
+  cursor: not-allowed;
+  opacity: 0.6;
+}
